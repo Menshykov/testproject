@@ -1,0 +1,10 @@
+mixin contentItem(img, title, stars, text, price)
+    .item-container
+        .item__wrapper-img
+            img(src=img, alt="img")
+        .item__wrapper-text
+            h4= title
+            .stars= stars
+            p= text
+            .price= '$'+price
+            a(href="#", class="btn btn-to-card") Add to Card

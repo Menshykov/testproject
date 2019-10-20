@@ -1,0 +1,118 @@
+.content
+    padding-top 25px
+    padding-bottom 60px
+.filter
+    &-row
+        display flex
+        align-items center
+        justify-content space-between
+    &-list
+        display flex
+        &__item
+            text-transform uppercase
+            color $color-gray
+            display flex
+            margin-left 90px
+            &:first-child
+                margin-left 0
+            a
+                padding-left 20px
+                color $color-dark
+                text-decoration none
+                position relative
+                display flex
+                height 20px
+                &:after
+                    content ""
+                    display block
+                    position relative
+                    top 50%
+                    left 5px
+                    transform translateY(-50%)
+                    width 9px
+                    height 5px
+                    background url('../images/arrow-black.svg') no-repeat
+
+.view-toggle
+    display flex
+    &__item
+        margin-left 20px
+        &:first-child
+            margin-left 0
+    &__icon
+        display block
+        width 28px
+        height 28px
+
+.row-mode-toggle
+    background url(../images/row-mode.svg) no-repeat
+    &.active
+        background url(../images/row-mode-active.svg) no-repeat
+
+.column-mode-toggle
+    background url(../images/col-mode.svg) no-repeat
+    &.active
+        background url(../images/col-mode-active.svg) no-repeat
+
+.content-row
+    display flex
+    flex-wrap wrap
+    margin 25px -10px
+
+.column-mode
+    .item-container
+        margin-bottom 50px
+        padding 0 10px
+        max-width 33.3333%
+        display flex
+        flex-direction column
+        .item
+            &__wrapper-text
+                .stars, p
+                    display none
+
+.row-mode
+    .item-container
+        margin-bottom 50px
+        padding 0 10px
+        width 100%
+        display flex
+        flex-direction row
+        .item
+            &__wrapper-img
+                max-width 31.81%
+            &__wrapper-text
+                padding-left 20px
+                display flex
+                flex-direction column
+                justify-content space-between
+                h4
+                    margin 0
+
+.item
+    &__wrapper-img
+        border-radius 10px
+        overflow hidden
+        img
+            display block
+            width 100%
+    &__wrapper-text
+        h4
+            margin-top 10px
+            font-size 22px
+            font-weight 600
+            line-height 28px
+            color $color-dark
+        .stars
+            margin-top 5px
+        p
+            margin-top 10px
+        .price
+            margin-top 5px
+            line-height 23px
+            font-weight 600
+            color #FF4949
+
+.load-more-row
+    .btn-default
+        margin 0 auto

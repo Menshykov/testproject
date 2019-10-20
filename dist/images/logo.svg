@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="176px" height="38px" viewBox="0 0 176 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>4ED80279-A6B6-4874-A2B8-15BD6156BD1E</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-for-testing" transform="translate(-457.000000, -208.000000)">
+            <g id="Group-6-(L)" transform="translate(457.000000, 208.000000)">
+                <text id="LOGOTYPE" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="28" font-weight="bold">
+                    <tspan x="47" y="29" fill="#1FB6FF">LOGO</tspan>
+                    <tspan x="115.88" y="29" fill="#3B4858">TYPE</tspan>
+                </text>
+                <circle id="Oval" stroke="#3B4858" stroke-width="3" cx="19" cy="19" r="17.5"></circle>
+                <circle id="Oval" stroke="#3B4858" stroke-width="2" fill="#1FB6FF" cx="19" cy="19" r="8"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

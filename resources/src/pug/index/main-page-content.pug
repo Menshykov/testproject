@@ -1,0 +1,27 @@
+include ../mixin/items
+article.col-9
+    .head-line
+        h3.title Title
+    
+    .content
+        .filter-row
+            ul.filter-list
+                li.filter-list__item sort by: #[a(href="#") position]
+                li.filter-list__item display #[a(href="#") 6 per page]
+            
+            ul.view-toggle
+                li.view-toggle__item
+                    a(href="#", class="view-toggle__icon view-mode-toggle row-mode-toggle")
+                li.view-toggle__item
+                    a(href="#", class="view-toggle__icon view-mode-toggle column-mode-toggle active")
+
+        .content-row.column-mode
+            +contentItem("images/item1.jpg", "Customer Demo", "4", "By creating an account on our website.", "120.00")
+            +contentItem("images/item1.jpg", "Customer Demo", "4", "By creating an account on our website.", "130.00")
+            +contentItem("images/item1.jpg", "Customer Demo", "4", "By creating an account on our website.", "140.00")
+            +contentItem("images/item1.jpg", "Customer Demo", "4", "By creating an account on our website.", "150.00")
+            +contentItem("images/item1.jpg", "Customer Demo", "4", "By creating an account on our website.", "160.00")
+            +contentItem("images/item1.jpg", "Customer Demo", "4", "By creating an account on our website.", "170.00")
+        
+        .load-more-row
+            a(href="#", class="btn-default btn-default_transparent") Load more

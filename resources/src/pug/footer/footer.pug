@@ -1,0 +1,24 @@
+footer
+    .wrapper
+        .no-gutters
+            .col-5.text-block
+                p While it was just a TV show, that little speech at the beginning of the original Star Trek show really did do a good job of capturing our feelings about space. It is those feelings that drive our love of astronomy  and our desire to learn more and more about it.
+            .footer-list
+                .footer-list__title Terms & Conditions
+                ul
+                    for i in [{text: 'Privacy Policy'}, {text: 'Terms of Payment'}, {text: 'Terms of Service'}]
+                        li
+                            a(href="#")= i.text
+            .footer-list
+                .footer-list__title Contact Support
+                a(href="mailto:jermey.kling@yahoo.com") jermey.kling@yahoo.com
+                a(href="#", class='btn-default btn-default_transparent mt-15') Leave feedback
+            .footer-list
+                .footer-list__title Follow
+                ul.social-list
+                    for i in [{img: 'images/facebook.svg'}, {img: 'images/google.svg'}, {img: 'images/twitter.svg'}]
+                        li.social-list__item
+                            a(href="#")
+                                img(src=i.img, alt="img")
+        .no-gutters
+            .col-12.copyrights Test TRK © 2017

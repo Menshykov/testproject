@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+    head
+        include mixin/meta
+        title test
+        include mixin/styles
+    body
+        include mixin/list
+        main(role="main" id='content' class='index-page')
+            include header/header
+            include index/main-page
+            include footer/footer
+        include mixin/scripts

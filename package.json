@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-stylus": "*",
-    "browser-sync": "^2.17.6",
+    "browser-sync": "^2.27.10",
     "gulp": "git://github.com/gulpjs/gulp.git#6d71a658c61edb3090221579d8f97dbe086ba2ed",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^2.3.2",
